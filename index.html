@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>List Group </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background: #f5f7fa;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      margin-bottom: 25px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+
+    .title {
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+
+    .list-group-item:hover {
+      transform: scale(1.02);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+
+<body>
+
+<h2>💎Bootstrap List Group</h2>
+
+<div class="container">
+
+  <!-- 1 BASIC -->
+  <div class="card">
+    <div class="title">1. Basic List Group</div>
+    <ul class="list-group">
+      <li class="list-group-item">Item 1</li>
+      <li class="list-group-item">Item 2</li>
+      <li class="list-group-item">Item 3</li>
+    </ul>
+  </div>
+
+  <!-- 2 ACTIVE & DISABLED -->
+  <div class="card">
+    <div class="title">2. Active & Disabled</div>
+    <ul class="list-group">
+      <li class="list-group-item active">Active Item</li>
+      <li class="list-group-item">Normal Item</li>
+      <li class="list-group-item disabled">Disabled Item</li>
+    </ul>
+  </div>
+
+  <!-- 3 LINKS -->
+  <div class="card">
+    <div class="title">3. Clickable List</div>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">Link 1</a>
+      <a href="#" class="list-group-item list-group-item-action">Link 2</a>
+    </div>
+  </div>
+
+  <!-- 4 FLUSH -->
+  <div class="card">
+    <div class="title">4. Flush Style</div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Item 1</li>
+      <li class="list-group-item">Item 2</li>
+    </ul>
+  </div>
+
+  <!-- 5 COLORS (FULL) -->
+  <div class="card">
+    <div class="title">5. All Colors</div>
+    <ul class="list-group">
+      <li class="list-group-item list-group-item-primary">Primary</li>
+      <li class="list-group-item list-group-item-secondary">Secondary</li>
+      <li class="list-group-item list-group-item-success">Success</li>
+      <li class="list-group-item list-group-item-danger">Danger</li>
+      <li class="list-group-item list-group-item-warning">Warning</li>
+      <li class="list-group-item list-group-item-info">Info</li>
+      <li class="list-group-item list-group-item-light">Light</li>
+      <li class="list-group-item list-group-item-dark">Dark</li>
+    </ul>
+  </div>
+
+  <!-- 6 BADGES -->
+  <div class="card">
+    <div class="title">6. List with Badges</div>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between">
+        Messages <span class="badge badge-primary">5</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between">
+        Alerts <span class="badge badge-danger">2</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 7 CUSTOM CONTENT -->
+  <div class="card">
+    <div class="title">7. Custom Content</div>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">
+        <h5>Title</h5>
+        <p>Description text here</p>
+      </a>
+    </div>
+  </div>
+
+  <!-- 8 HORIZONTAL -->
+  <div class="card">
+    <div class="title">8. Horizontal List</div>
+    <ul class="list-group list-group-horizontal">
+      <li class="list-group-item">Item 1</li>
+      <li class="list-group-item">Item 2</li>
+      <li class="list-group-item">Item 3</li>
+    </ul>
+  </div>
+
+  <!-- 9 BUTTON STYLE -->
+  <div class="card">
+    <div class="title">9. Button List Group</div>
+    <div class="list-group">
+      <button class="list-group-item list-group-item-action">Button 1</button>
+      <button class="list-group-item list-group-item-action">Button 2</button>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
